@@ -10,7 +10,7 @@ def index():
             <title>myblog</title>
         </head>
         <body>
-            <h1>Hola, ''' + user['username'] + '''
+            <h1>Hola amigo, ''' + user['username'] + '''</h1>
         </body>
     </html>
     '''

@@ -13,7 +13,12 @@ def index():
         {
             'author': {'username':'Susana'},
             'body': 'Lets review a movie'
+        },
+        {
+            'author': { 'username':'Andres'},
+            'body':'Avengers?'
         }
+
     ]
     return render_template('index.html', title='home', user=user, posts=posts)
     
